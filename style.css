@@ -13,6 +13,7 @@ span {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -36,4 +37,10 @@ section {
 .background {
     background-image: url(background/01.webp);
     background-repeat: no-repeat;
+}
+
+.second {
+    background-image: url(background/01.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
